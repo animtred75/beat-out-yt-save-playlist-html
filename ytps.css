@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.but {
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgb(181, 138, 231);
+    border: 3px solid;
+    width: 520px;
+    height: 64px;
+    overflow: auto;
+}
+.buttonss {
+    width: 24px;
+    height: 24px;
+    border: 1px solid;
+    margin: 2px 0px;
+    padding: 2px 2px;
+    display: inline-block;
+}
+.buttonss img {
+    width: 100%;
+    height: 100%;
+}
+.splash {
+    color: rgb(0, 0, 0);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#kshowads {
+    margin: 0;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    width: 240px;
+    height: 43px;
+    transform: translate(-50%, 0);
+}
+#scenes {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    image-rendering: pixelated;
+}
+#logo {
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}

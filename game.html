@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Beat Out YT Save Playlist</title>
+        <link rel="stylesheet" href="ytps.css">
+    </head>
+    <body>
+        <canvas id="scenes" width="480" height="360"></canvas>
+        <div class="but"></div>
+        <div id="kshowads">
+            <iframe src="https://forkphorus.github.io/embed.html?id=703502769&ui=false" width="240" height="43" allowfullscreen="true" allowtransparency="true" style="border: none;"></iframe>
+        </div>
+        <div id="logo">
+            <img src="logo.png" width="240">
+        </div>
+        <div class="splash1">
+            <p class="splash">loading...</p>
+        </div>
+        <script src="ytps.js"></script>
+        <script>
+             function querySelector(selector) {
+                var el = document.querySelector(selector);
+                if (!el) {
+                    throw new Error('Selector returned nothing: ' + selector);
+                }
+                return el;
+            }
+            window.onload = function() {
+                querySelector('.splash1').remove();
+            }
+            BOYSP.renderer.setScale(2);
+        </script>
+    </body>
+</html>
